@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include 'header.html' %}
+
+<body>
+
+    {% include 'nav.html' %}
+    <div class="container">
+
+        <div>
+            <h1 id="title" class="glitch"  data-text="Kelly Chang">Kelly Chang</h1>
+        </div>
+        <p class="description" id="writer">
+            Kelly is a Creative Programmer
+        </p>
+        <p class="description" id="writer2">
+            Game Developer
+        </p>
+
+
+        <!-- Control -->
+        <div style="text-align: center; margin-bottom: 12px">
+            <div class="control" data-filter="all">All</div>
+            <div class="control" data-filter=".code">Programming</div>
+            <div class="control" data-filter=".game">Games</div>
+            <div class="control" data-filter=".art">Art</div>
+        </div>
+
+        <!-- MixItUp -->
+        <div class="wrapper row">
+            <div class="mix col-4 box code" data-order="1">A</div>
+            <div class="mix col-4 box art" data-order="2">B</div>
+            <div class="mix col-4 box code game" data-order="3">C</div>
+        </div>
+
+    </div>
+
+    {% include 'footer.html' %}
+</body>
+</html>
