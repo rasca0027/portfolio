@@ -32,7 +32,7 @@
         <!-- MixItUp -->
         <div class="wrapper row">
             {% for project in project_list %}
-                <div class="mix col-4 box {{ project.tag }} bg-{{ loop.index }} hvr-sweep-to-left" data-order="{{ loop.index }}">
+                <div class="mix col-md-4 box {{ project.tag }} bg-{{ loop.index }} hvr-sweep-to-left" data-order="{{ loop.index }}">
                     {{ project.title }}
                 </div>
             {% endfor %}
