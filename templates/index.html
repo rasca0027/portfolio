@@ -31,11 +31,11 @@
 
         <!-- MixItUp -->
         <div class="wrapper row">
-            <div class="mix col-4 box code hvr-sweep-to-left" data-order="1">
-                Fields of Sentiments
-            </div>
-            <div class="mix col-4 box art" data-order="2">B</div>
-            <div class="mix col-4 box code game" data-order="3">C</div>
+            {% for project in project_list %}
+                <div class="mix col-4 box {{ project.tag }} bg-{{ loop.index }} hvr-sweep-to-left" data-order="{{ loop.index }}">
+                    {{ project.title }}
+                </div>
+            {% endfor %}
         </div>
 
     </div>
