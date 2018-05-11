@@ -112,6 +112,19 @@ function write() {
             addCursor: true,
             cursorType: '_',  
             cursorColor: '#000',
+            removeCursor: true
+        }
+    }); 
+
+    var twriter3 = document.getElementById('writer3');
+    twriter3.typed({ //CALL THE FUNCTION DIRECTLY WITH OPTIONS
+        timing: {
+            delay: 8000 
+        },
+        cursor: {
+            addCursor: true,
+            cursorType: '_',  
+            cursorColor: '#000',
             removeCursor: false
         }
     }); 

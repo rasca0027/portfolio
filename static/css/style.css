@@ -18,6 +18,19 @@ body {
     border-bottom: solid;
 }
 
+.nav-item img {
+    width: 50px;
+    margin: 5px;
+}
+
+.nav-item {
+    color:white;
+}
+
+.nav-item:hover {
+    background: black;
+}
+
 /*-- HOMEPAGE --*/
 
 #title {
@@ -53,5 +66,12 @@ body {
 
 .box {
     background-color: blue;
-    height: 100px;
+    height: 200px;
+    background-image: url('/static/work/fos2.jpg');
+    background-size: cover;
+    text-align: center;
+    padding-top: 90px;
+    color: transparent;
 }
+
+
