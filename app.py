@@ -7,14 +7,14 @@ from settings import APP_STATIC
 
 
 app = Flask(__name__)
-TOTAL = 4
+TOTAL = 8
 
 
 @app.route('/')
 def hello_world():
 
     project_list = []
-    for i in xrange(4):
+    for i in xrange(TOTAL):
         with open(os.path.join(APP_STATIC, 'data', str(i + 1) + '.txt')) as f:
             title = f.readline()
             tag = f.readline()
