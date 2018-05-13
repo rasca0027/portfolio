@@ -2,8 +2,9 @@ import os
 
 from flask import Flask
 from flask import render_template
-
 from settings import APP_STATIC
+
+import markdown
 
 
 app = Flask(__name__)
@@ -15,7 +16,8 @@ def hello_world():
 
     project_list = []
     for i in xrange(TOTAL):
-        with open(os.path.join(APP_STATIC, 'data', str(i + 1) + '.txt')) as f:
+        fpath = os.path.join(APP_STATIC, 'data', str(i + 1) + '.txt')
+        with open(fpath, 'r') as f:
             title = f.readline()
             tag = f.readline()
         project = {
@@ -35,7 +37,34 @@ def about():
 
 @app.route('/project/<int:project_id>')
 def project(project_id):
-    context = {}
+    fpath = os.path.join(APP_STATIC, 'data', str(project_id) + '.txt')
+    with open(fpath, 'r') as f:
+        title = f.readline()
+        tag = f.readline()
+        content = f.read()
+    html = markdown.markdown(content)
+    context = {
+        'title': title,
+        'content': html 
+    }
+    print context
+    return render_template('project.html', context=context)
+    return render_template('project.html', context=context)
+
+
+@app.route('/test')
+def test():
+    import markdown
+    with open(os.path.join(APP_STATIC, 'data','1.txt')) as f:
+        title = f.readline()
+        tag = f.readline()
+        content = f.read()
+    html = markdown.markdown(content)
+    context = {
+        'title': title,
+        'content': html 
+    }
+    print context
     return render_template('project.html', context=context)
 
 

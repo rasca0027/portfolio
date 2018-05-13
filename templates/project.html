@@ -28,8 +28,9 @@
     </nav>
 
     <!-- conten -->
-    <div class="container">
-        <h1 style="text-align:center"> About </h1>
+    <div class="container project-info">
+        <h1 id="project-title"> {{ context.title }} </h1>
+        {{ context.content|safe }}
     </div>
 
     {% include 'footer.html' %}

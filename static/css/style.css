@@ -125,3 +125,20 @@ body {
     padding: 30px;
     color: black;
 }
+
+/*-- Project --*/
+#project-title {
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.project-info {
+    color: black;
+}
+
+.project-info img {
+    width: 80%;
+    display: block;
+    margin: 30px auto;
+}

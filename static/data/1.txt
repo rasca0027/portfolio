@@ -1,2 +1,6 @@
 Fields of Sentiments
 code game
+
+Fields of Sentiments is a game made in 48 hours during the 2018 Global Game Jam. The game is a combination of farming game and narrative game, set in a fictional universe where emotions are forbidden and black markets thrive for trading emotions. Player play as an emotion farmer who farms emotion crops on weekdays and sell them in the black market on weekends. They have to make difficult moral decisions to progress the story.
+![screenshot](/static/work/fos2.jpg)
+ABC
