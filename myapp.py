@@ -34,9 +34,9 @@ def about():
 
 
 @app.route('/project/<int:project_id>')
-def project():
-    
-    return render_template('about.html')
+def project(project_id):
+    context = {}
+    return render_template('project.html', context=context)
 
 
 if __name__ == "__main__":

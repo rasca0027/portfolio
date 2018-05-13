@@ -1,7 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 
-{% include 'header.html' %}
+    {% include 'header.html' %}
+
+    <link rel="stylesheet" type="text/css" href="/static/css/glitch.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/hover.css">
+    <script type="text/javascript" src="/static/js/script.js"></script>
+    <script type="text/javascript" src="/static/js/mixitup.min.js"></script>
+    
+    <script>
+        function gotoProject(pageNum) {
+            var path = "/project/" + pageNum.toString();
+            window.location.href = path;
+        }
+    </script>
 
 <body>
 
@@ -32,7 +44,7 @@
         <!-- MixItUp -->
         <div class="wrapper row">
             {% for project in project_list %}
-                <div class="mix col-md-4 box {{ project.tag }} bg-{{ loop.index }} hvr-sweep-to-left" data-order="{{ loop.index }}">
+                <div class="mix col-md-4 box {{ project.tag }} bg-{{ loop.index }} hvr-sweep-to-left" data-order="{{ loop.index }}" onclick="gotoProject({{ loop.index }})">
                     {{ project.title }}
                 </div>
             {% endfor %}

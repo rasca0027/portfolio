@@ -71,6 +71,7 @@ body {
     text-align: center;
     padding-top: 90px;
     color: transparent;
+    font-size: 18px;
 }
 
 .bg-1 {
@@ -112,5 +113,15 @@ body {
 
 
 
+/*-- About --*/
 
+#headshot {
+    max-width: 85%;
+    margin: 50px auto;
+    display: block;
+}
 
+#intro {
+    padding: 30px;
+    color: black;
+}
