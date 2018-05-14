@@ -1,2 +1,5 @@
-Whitestone Contest
+Adventura - Audio Reactive Piece for Whitestone Contest 
 code art
+
+[Whitestone.io](https://www.whitestone.io/) is an initiative to push online music through visuals and interactivity - a place to discover music in a different way. Whitestone Audio-Reactive Visualization Contest invites artist from all over the world to make an audio-reactive piece for Mike Gao's song 'Adventura'. The results are shown [here](https://www.whitestone.io/adventura-contest).
+

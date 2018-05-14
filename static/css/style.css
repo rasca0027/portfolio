@@ -142,3 +142,7 @@ body {
     display: block;
     margin: 30px auto;
 }
+
+.project-info a {
+    color: #dc3545;
+}

@@ -1,2 +1,17 @@
 Fimbulwinter
 game 
+
+## What It Is
+Fimbulwinter is a post-apocalyptic survival board game aiming to raise awareness of political engagement.  
+
+Each player play as a survivor living in a basecamp, and the world is a cold, dead place with ashed flying in ruins. The goal of the game is to survive through three months until the rescue arrives.
+
+Fimbulwinter was originally called *No One is an Outsider*, and is my thesis project for Integrated Digital Media program at New York University. The research behind the game is trying to send out a social message that encourages players to participate more in politics and social issues. 
+
+This is a game about dilemma of contribution to the community and your own resources. Players will learn the subtle message behind the game: you have to care more about your society, before it's too late. Under the current political climate, this is all the more relevant.
+
+## How Is Works
+
+There are five characters in the game: Soldier, Doctor, Engineer, Grandpa and Little girl.
+
+Different characters have different personality traits and status: health points and action points. Action points are for contributing to the community, and health points are basically life points, if it goes down to zero, players die.

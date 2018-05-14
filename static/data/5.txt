@@ -1,2 +1,17 @@
 Metro Romance AR Game
 code game
+
+**Toii Virtual Gaming Lab** -  
+Toii provides the integrated experience by connecting physical and digital components through applications, such as AR (Augmented Reality), VR (Virtual Reality), NFC (Near Field Communication), LBS (Location-Based Services), and gamification.
+
+Metro Romance is a location-based AR (Augmented Reality) Game. It has more than 10,000 downloads from App Store and Google Play. Collaborated with Kaoshiung Metro System, by taking the metro around the city, players are able to discover the city and explore the story line around different cute characters.
+
+I developed back-end API services and front-end applications for an AR Location Based mobile game called Metro Romance that has more than 10,000 downloads from App Store and Google Play, including all the APIs using node.js for both the gameplay and user authentication systems, as well as a cross-platform app using Ionic Framework.
+
+[Official Website](https://www.metro-romance.com/)
+![screenshot](/static/work/metro3.jpg)
+*When player arrives at the location, they can trigger the AR mode*
+![screenshot](/static/work/metro2.jpg)
+*LBS design: players have to travel around the city to progress the storyline*
+![screenshot](/static/work/metro1.jpg)
+*Dialogue options: different options trigger different storyline*

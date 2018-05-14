@@ -1,6 +1,18 @@
 Fields of Sentiments
 code game
 
+Game Design & Programming - Kelly Chang  
+Game Design & Writing - Pratik Jain  
+Art - Yu-Hsuan Lin   
+Writing - Bryce Summers   
+
+
 Fields of Sentiments is a game made in 48 hours during the 2018 Global Game Jam. The game is a combination of farming game and narrative game, set in a fictional universe where emotions are forbidden and black markets thrive for trading emotions. Player play as an emotion farmer who farms emotion crops on weekdays and sell them in the black market on weekends. They have to make difficult moral decisions to progress the story.
+![screenshot](/static/work/FOStitle.png)
+
 ![screenshot](/static/work/fos2.jpg)
-ABC
+*On weekdays, player have to farm emotion crops...*
+![screenshot](/static/work/fos1.jpg)
+*On weekends, player goes to a black market to sell produce. Choose dialogue wisely because your choice affects how the story progresses ...*
+
+

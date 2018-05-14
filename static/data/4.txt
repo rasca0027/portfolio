@@ -1,2 +1,16 @@
 Roommate Simulator
 code game
+
+Roommate Simulator is a game inspired by the living style of New Yorkers. They often have to squeeze in a small apartment with roommates, and sometimes they encounter terrible roommates. This is a game for those people.
+
+In this game, you are free to do whatever you want to your roommate. You can annoy your roommate or be nice to her, all depend on you. You can do what you can't do in real life and relief stress at the same time.
+
+There are 2 versions of the game: 3D and VR. The 3D version is made in Unity, and VR with Unity and Oculus Rift + Touch. Players are able to interact with Oculus Touch controllers in the VR version. It was exhibited as an interactive project in [BRIC Museum](https://www.bricartsmedia.org/) and NYC Media Lab 2017. 
+
+3D version can be found [here on itch.io](https://rasca0027.itch.io/roommate-simulator)
+
+VR version is not yet uploaded but will be uploaded soon.
+
+![screenshot](/static/work/room.png)
+
+![screenshot](/static/work/room1.png)

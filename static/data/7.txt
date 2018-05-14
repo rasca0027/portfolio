@@ -1,2 +1,16 @@
 I DON'T CARE (about your cliche scene vampire bullshit)
 game code 
+
+![title screen](/static/work/idcLogo.png)
+
+Play as a perpetually 19-year-old vampire in a world that no longer gives a shit about how many friends you've got on Myspace or about vampire fiction.
+
+Let's face it -- you're so last summer.
+
+*I DON'T CARE (about your cliche scene vampire bullshit)* is a light-hearted point-and-click adventure game about adapting to change, and the search for acceptance and validation. Guide the player character as they struggle to adjust to today's society, pop culture, and fashion trends -- or let them wallow in their misguided fashion choices and retreat back underground.
+
+The game was developed in Adventure Game Studio for a Narrative Game Design class. It consists of 2 light-weight puzzles, tha estimated play time is 20 minutes. The game can be downloaded [here on itch.io](https://mxedk.itch.io/i-dont-care). 
+
+
+![screen shot](/static/work/idc.png)
+![screen shot](/static/work/idc_dia.png)
