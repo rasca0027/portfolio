@@ -1,7 +1,9 @@
 Handshaking
 code art
 
-Handshaking is an interactive installation which explores the link between human behavior and computer science theories. When we meet new people, we shake hands with them. There is also a protocol called 'Three Way Handshaking' in computer science. I try to connect these two things, and make a physical interface for humans to meet computer programs.
+Handshaking is an interactive installation exploring the commonailty of communication protocol of human and artificial intelligence. 
+
+I created a fictional physical interface to bridge humand and AI, our social behavior and computer science theories. When we meet new people, we shake hands with them. There is also a protocol called 'Three Way Handshaking' in computer science.
 
 When you shake hands with the fake hand on the table, you are interacting with a computer program. After you establish the connection, you are able to interact with the AI-like figure built with WebGL and 3-D points cloud.
 
