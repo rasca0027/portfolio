@@ -8,10 +8,30 @@ Each player play as a survivor living in a basecamp, and the world is a cold, de
 
 Fimbulwinter was originally called *No One is an Outsider*, and is my thesis project for Integrated Digital Media program at New York University. The research behind the game is trying to send out a social message that encourages players to participate more in politics and social issues. 
 
+![presentation](/static/work/propose.jpg)
+
 This is a game about dilemma of contribution to the community and your own resources. Players will learn the subtle message behind the game: you have to care more about your society, before it's too late. Under the current political climate, this is all the more relevant.
 
-## How Is Works
+## Characters
 
-There are five characters in the game: Soldier, Doctor, Engineer, Grandpa and Little girl.
+To create immersive gameplay experience, players are encouraged to role-play. There are five characters in the game: Soldier, Doctor, Engineer, Grandpa and Little girl. 
+
+![character](/static/work/char.png)
 
 Different characters have different personality traits and status: health points and action points. Action points are for contributing to the community, and health points are basically life points, if it goes down to zero, players die.
+
+## Event Cards
+
+Players have to survive three months, in which there will be one event each week. 
+
+For each event, players have to cooperatively spend their action tokens to resolve the situation, otherwise they will suffer from penalties. Penalties are trait-based, which creates tension and randomness in the gameplay.
+
+![Event cards](/static/work/event.jpg)
+
+## Playtest
+
+Players report that the game is enjoyable and would like to play again. 
+
+They did not realize the game was about politics, which is intentional because it matches the design guideline "Obfuscating" from *Embedded Design*. However, they did learn the message from the game and agree to participate more in communities.
+
+![Playtest](/static/work/playtest.jpg)
