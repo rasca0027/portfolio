@@ -8,7 +8,7 @@ import markdown
 
 
 app = Flask(__name__)
-TOTAL = 8
+TOTAL = 9
 
 
 @app.route('/')
@@ -47,8 +47,6 @@ def project(project_id):
         'title': title,
         'content': html 
     }
-    print context
-    return render_template('project.html', context=context)
     return render_template('project.html', context=context)
 
 
